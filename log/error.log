@@ -1,0 +1,271 @@
+2018/02/28 21:12:25 [error] 5084#5084: *1 directory index of "/var/www/equeue/" is forbidden, client: 127.0.0.1, server: equeue.vv, request: "GET / HTTP/1.1", host: "localhost"
+2018/03/11 22:44:37 [error] 529#529: *209 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/index"
+2018/03/11 22:44:37 [error] 529#529: *209 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/index"
+2018/03/11 22:44:41 [error] 529#529: *212 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/about"
+2018/03/11 22:44:41 [error] 529#529: *212 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/about"
+2018/03/11 22:44:42 [error] 529#529: *212 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 22:44:42 [error] 529#529: *212 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 22:44:43 [error] 529#529: *212 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/"
+2018/03/11 22:44:43 [error] 529#529: *212 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/"
+2018/03/11 22:44:43 [error] 529#529: *212 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 22:44:43 [error] 529#529: *212 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 22:44:46 [error] 529#529: *221 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:44:46 [error] 529#529: *221 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:44:48 [error] 529#529: *221 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:44:48 [error] 529#529: *221 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:44:50 [error] 529#529: *226 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:44:50 [error] 529#529: *226 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 22:46:40 [error] 529#529: *240 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 22:46:40 [error] 529#529: *240 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/contact"
+2018/03/11 23:19:54 [error] 529#529: *321 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/index"
+2018/03/11 23:19:54 [error] 529#529: *321 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/index"
+2018/03/11 23:20:41 [error] 529#529: *324 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 23:20:41 [error] 529#529: *324 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 23:20:42 [error] 529#529: *324 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:438
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/11 23:20:42 [error] 529#529: *324 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(626): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/14 17:10:40 [error] 516#516: *376 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\controllers\api\Controller' not found in /var/www/equeue/controllers/api/TicketController.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /api/ticket/get HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/14 17:10:41 [error] 516#516: *376 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\controllers\api\Controller' not found in /var/www/equeue/controllers/api/TicketController.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /api/ticket/get HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/23 12:27:18 [error] 624#624: *190 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /var/www/equeue/vendor/yiisoft/yii2-debug/LogTarget.php on line 123" while reading response header from upstream, client: 127.0.0.1, server: equeue.vv, request: "POST /site/run-demon HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/admin"
+2018/03/23 12:27:18 [error] 624#624: *190 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /var/www/equeue/vendor/yiisoft/yii2-debug/LogTarget.php on line 123" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "POST /site/run-demon HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/admin"
+2018/03/23 13:08:16 [error] 624#624: *419 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /var/www/equeue/vendor/yiisoft/yii2-debug/LogTarget.php on line 123" while reading response header from upstream, client: 127.0.0.1, server: equeue.vv, request: "POST /site/run-demon HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/admin"
+2018/03/23 13:08:16 [error] 624#624: *419 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /var/www/equeue/vendor/yiisoft/yii2-debug/LogTarget.php on line 123" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "POST /site/run-demon HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/admin"
+2018/03/29 14:03:47 [error] 630#630: *474 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:47 [error] 630#630: *474 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:55 [error] 630#630: *477 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:55 [error] 630#630: *477 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:57 [error] 630#630: *477 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:57 [error] 630#630: *477 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:57 [error] 630#630: *477 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:57 [error] 630#630: *477 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:03:58 [error] 630#630: *477 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/operator"
+2018/03/29 14:03:58 [error] 630#630: *477 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost", referrer: "http://localhost/site/operator"
+2018/03/29 14:04:00 [error] 630#630: *483 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:00 [error] 630#630: *483 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:03 [error] 630#630: *486 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:03 [error] 630#630: *486 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:09 [error] 630#630: *489 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:09 [error] 630#630: *489 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:25 [error] 630#630: *492 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:25 [error] 630#630: *492 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:26 [error] 630#630: *492 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Login Required in /var/www/equeue/vendor/yiisoft/yii2/web/User.php:454
+Stack trace:
+#0 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/equeue/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /var/www/equeue/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\web\ErrorAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\b" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
+2018/03/29 14:04:26 [error] 630#630: *492 FastCGI sent in stderr: "ase\ActionEvent))
+#4 /var/www/equeue/vendor/yiisoft/yii2/base/Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/equeue/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/equeue/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\web\ErrorAction))
+#7 /" while reading upstream, client: 127.0.0.1, server: equeue.vv, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "localhost"
